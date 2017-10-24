@@ -1,0 +1,131 @@
+/* CSS Style for [gdsmsh] landing*/
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16pt;
+	font-weight: 700;
+	color:#000;
+	text-decoration: none;
+
+}
+
+div {
+	color:#444;
+	font:400 13px/18px 'Droid Sans',sans-serif,Arial,Helvetica;
+	-webkit-font-smoothing:antialiased;
+	font-weight: 400;	
+	font-size: 14pt;
+	line-height: -2;
+}
+
+a{
+	color:#444;
+	text-decoration: none;
+}
+a:hover{
+	color:#444;
+	text-decoration: underline;
+}
+img{
+	color: #80b3ff;
+
+}
+#page {
+	width:960px;
+	margin: auto;
+	margin-top:100px;
+	min-height: 400px;
+}
+#page p{
+	font-size: 10pt;
+	text-align: center;
+}
+.clear{
+	clear: both;
+}
+
+#head .logo{
+	float:left;
+	font-size: 20pt;
+}
+#head .logo a{
+	font-size: 20pt;
+	color: #80b3ff;
+}
+
+#head .language{
+	float:right;
+	font-family: 'Play', sans-serif;
+	color: #444;
+}
+#head .language a{
+	color: #444;
+}
+#body {
+	/*border: 1px solid #66ff00;*/
+	height: 400px;
+}
+#menu {
+	width:35%;
+	letter-spacing: 0.5px;
+	margin-top: 65px;
+	line-height: 25px;
+	vertical-align: middle;
+}
+#menu ul{
+	
+}
+#content {
+	padding: 10px;
+}
+#content a{
+	color: #80b3ff;
+}
+#content ul{
+	float:left;
+}
+#content .logo{
+	line-height: -10px;
+}
+
+#content div{
+	text-align: justify;
+	float:right;
+	width:63.5%;	
+	margin-top: 50px;
+	padding-top: 25px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border-left:  solid 1px #66ff00;
+	overflow:auto;
+	line-height: 25px;
+}
+#content div p{
+	text-align: justify;
+}
+#content a{
+	color:#66ff00;
+}
+#content div ul{
+	list-style-type: disc;
+}
+#content div li {
+	font-size: 10pt;
+	list-style-type: disk;
+}
+#content .active{
+	display: block;
+	border: solid 1px #66ff00;
+	border-top: none;
+	border-right: none;
+}
+#menu a.active{
+	padding-left: 10px;
+	margin-right: -3px;
+}
+#content div.active{
+	border-bottom: none;
+}
+#content .nocontent{
+	display: none;
+}
